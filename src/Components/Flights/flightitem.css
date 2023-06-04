@@ -1,0 +1,9 @@
+.container {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(237, 210, 172, 0.303);
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}

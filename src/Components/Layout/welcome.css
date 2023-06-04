@@ -1,0 +1,27 @@
+.welcome-bar {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+
+.welcome-bar button {
+  background-color: rgb(61, 129, 245);
+  border-radius: 20px;
+  font-size: large;
+  color: white;
+  width: 200px;
+  height: 35px;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.welcome-bar button:hover {
+  background-color: rgb(76, 138, 245);
+  cursor: pointer;
+}
+
+/* h1,
+p {
+  display: inline;
+} */

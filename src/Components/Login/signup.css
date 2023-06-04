@@ -1,0 +1,50 @@
+.signup-container {
+  border-radius: 5px;
+
+  padding-bottom: 20px;
+
+  font-weight: 650;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup-container form input {
+  height: 30px;
+  border-radius: 5px;
+  width: 200px;
+  border-color: rgba(183, 178, 178, 0.386);
+}
+
+form {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+#signup {
+  background-color: rgb(61, 129, 245);
+  border-radius: 20px;
+  font-size: large;
+  color: white;
+  width: 250px;
+  height: 35px;
+  padding: 5px;
+}
+
+#signup:hover {
+  background-color: rgb(76, 138, 245);
+  cursor: pointer;
+}
+
+#login-0 {
+  background-color: rgb(61, 129, 245);
+  border-radius: 5px;
+  font-size: large;
+  color: white;
+  /* width: 250px; */
+  height: 35px;
+  padding: 5px;
+}
+
+#login-0:hover {
+  background-color: rgb(76, 138, 245);
+  cursor: pointer;
+}
