@@ -5,7 +5,7 @@ const FlightItem = (props) => {
     <li>
       <div className="container">
         <p>{props.airline}</p>
-        <p>Rs {props.cost}</p>
+        <p> Rs {props.cost}</p>
         <p>Flight No: {props.flightNo}</p>
       </div>
     </li>

@@ -5,7 +5,7 @@ const FlightList = () => {
   const flights = useSelector((state) => state.flightSliceReducer.flightList);
   return (
     <>
-      <h1>Here are some flights...</h1>
+      <h1>Here are some non-stop flights...</h1>
       <ul>
         {flights.map((flight, index) => {
           return (

@@ -29,7 +29,7 @@ const Search = () => {
     <div className="search-container">
       <form onSubmit={searchHandler}>
         <p>
-          <label htmlFor="source">From (IATA Code: )</label>
+          <label htmlFor="source">From (IATA Code )</label>
           <br />
           <input
             type="text"
@@ -42,7 +42,7 @@ const Search = () => {
         </p>
 
         <p>
-          <label htmlFor="destination">Destination (IATA Code: )</label>
+          <label htmlFor="destination">Destination (IATA Code )</label>
           <br />
           <input
             type="text"
@@ -55,16 +55,9 @@ const Search = () => {
         </p>
 
         <p>
-          <label htmlFor="date">Travelling Date (yyyy-mm-dd)</label>
+          <label htmlFor="date">Travelling Date </label>
           <br />
-          <input
-            type="text"
-            id="date"
-            name="date"
-            ref={dateRef}
-            placeholder="2023-07-21"
-            required
-          />
+          <input type="date" id="date" name="date" ref={dateRef} required />
         </p>
 
         <p>
